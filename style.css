@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.input-box{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.search-input{
+        padding: 5px;
+        width: 300px;
+        margin-left: 10px;
+}
+
+.suggestions{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 19px;
+}
+
+.suggest-item{
+    list-style: none;
+}
